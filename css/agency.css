@@ -125,7 +125,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: #fed136;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -155,7 +155,7 @@ img::-moz-selection {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
+    font-size: 1.25em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
@@ -184,7 +184,7 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 100px;
 }
 
@@ -206,7 +206,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 300px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
@@ -595,8 +595,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-color: #383e45;
+/*  background-image: url("../img/header-bg.jpg");*/
   background-repeat: no-repeat;
   background-position: center;
 }
